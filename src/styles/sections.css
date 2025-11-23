@@ -219,12 +219,15 @@
   height: 500px;
   background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-radius: 12px;
-  overflow: hidden;
+  overflow: visible;
+  isolation: isolate; /* Creates new stacking context */
 }
 
 .map-hotspot {
   position: absolute;
   cursor: pointer;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .hotspot-marker {
@@ -250,15 +253,18 @@
 
 .hotspot-tooltip {
   position: absolute;
-  bottom: 30px;
+  bottom: 35px;
   left: 50%;
   transform: translateX(-50%);
   background: white;
-  padding: var(--spacing-sm);
+  padding: 12px 16px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  min-width: 200px;
-  z-index: 10;
+  min-width: 220px;
+  max-width: 280px;
+  z-index: 100;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .hotspot-tooltip strong {
