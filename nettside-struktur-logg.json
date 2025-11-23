@@ -1,0 +1,275 @@
+{
+  "generert": "2025-01-23T00:00:00+01:00",
+  "tittel": "Boligmarkedet på 1 minutt - Nettsidestruktur",
+  "beskrivelse": "Dette dokumentet beskriver strukturen til nettsiden 'Boligmarkedet på 1 minutt', en interaktiv scrollytelling-nettside om det norske boligmarkedet.",
+  
+  "teknologi_stack": {
+    "framework": "React + Vite",
+    "språk": "TypeScript",
+    "animasjoner": "Framer Motion, GSAP + ScrollTrigger",
+    "datavisualisering": "Recharts",
+    "markdown": "react-markdown",
+    "styling": "CSS med CSS-variabler"
+  },
+
+  "side_struktur": {
+    "hovedkomponent": "BoligmarkedShortreadPage",
+    "fil_sti": "src/pages/BoligmarkedShortreadPage.tsx",
+    "layout": "Vertikal scrolling med seksjoner",
+    "seksjoner": [
+      {
+        "navn": "HookIntro",
+        "komponent": "HookIntro.tsx",
+        "posisjon": 1,
+        "beskrivelse": "Hero-seksjon med parallax-effekt. Fanger oppmerksomheten med tittel og introduksjon.",
+        "funksjonalitet": [
+          "Fullskjermseksjon (min-height: 100vh)",
+          "Parallax-animasjoner",
+          "Sentrert tekst"
+        ]
+      },
+      {
+        "navn": "SectionPrices",
+        "komponent": "SectionPrices.tsx",
+        "posisjon": 2,
+        "beskrivelse": "Visualiserer prisutvikling nasjonalt med linjediagram og key-stat.",
+        "funksjonalitet": [
+          "Interaktivt linjediagram (Recharts)",
+          "Count-up animasjon på key-stat",
+          "Markdown-basert tekst med fotnoter",
+          "Responsiv layout: tekst til venstre, graf til høyre"
+        ],
+        "data_kilde": "src/data/priceData.json"
+      },
+      {
+        "navn": "SectionGroups",
+        "komponent": "SectionGroups.tsx",
+        "posisjon": 3,
+        "beskrivelse": "Visuell oversikt over hvem som sliter mest med boligmarkedet, fokusert på aldersgrupper.",
+        "funksjonalitet": [
+          "Stolpediagram (Recharts)",
+          "Info-kort for hver aldersgruppe",
+          "Stagger-animasjoner på kort",
+          "Markdown-basert tekst med fotnoter"
+        ],
+        "data_kilde": "src/data/ageGroups.json"
+      },
+      {
+        "navn": "SectionMap",
+        "komponent": "SectionMap.tsx",
+        "posisjon": 4,
+        "beskrivelse": "Interaktivt kart over Norge med byer og hotspot-tooltips. Viser regionale pressområder.",
+        "funksjonalitet": [
+          "SVG-kart (country.svg) med røde prikker for byer",
+          "Interaktive hotspots over byene",
+          "Hover-tooltips med byinformasjon",
+          "Koordinat-basert posisjonering (prosent)",
+          "Debug-modus for koordinatjustering",
+          "Framer Motion animasjoner ved innscrolling",
+          "Responsiv design med aspect-ratio 1:1"
+        ],
+        "data_kilder": [
+          "src/data/pressAreas.json",
+          "src/data/cityCoordinates.ts",
+          "src/lesav/country.svg"
+        ],
+        "byer": [
+          {
+            "navn": "Oslo",
+            "koordinater": { "left": 28, "top": 84 }
+          },
+          {
+            "navn": "Stavanger",
+            "koordinater": { "left": 13, "top": 90 }
+          },
+          {
+            "navn": "Bergen",
+            "koordinater": { "left": 11.5, "top": 81 }
+          },
+          {
+            "navn": "Trondheim",
+            "koordinater": { "left": 27, "top": 61 }
+          },
+          {
+            "navn": "Tromsø",
+            "koordinater": { "left": 53.5, "top": 13 }
+          }
+        ]
+      },
+      {
+        "navn": "SectionRates",
+        "komponent": "SectionRates.tsx",
+        "posisjon": 5,
+        "beskrivelse": "Forklarer hvordan renter påvirker boliglån og kjøpekraft med timeline-visualisering.",
+        "funksjonalitet": [
+          "GSAP ScrollTrigger timeline",
+          "Tre trinn: Rente stiger → Lånekostnad øker → Kjøpekraft faller",
+          "Scroll-basert animasjon",
+          "Markdown-basert tekst med fotnoter"
+        ],
+        "data_kilde": "src/data/interestRates.json"
+      },
+      {
+        "navn": "SectionSummary",
+        "komponent": "SectionSummary.tsx",
+        "posisjon": 6,
+        "beskrivelse": "Oppsummering av hovedpoengene i artikkelen.",
+        "funksjonalitet": [
+          "Bullet-liste med checkmarks (✔)",
+          "Stagger-animasjoner på hver bullet",
+          "Markdown-basert innhold"
+        ]
+      },
+      {
+        "navn": "SectionSources",
+        "komponent": "SectionSources.tsx",
+        "posisjon": 7,
+        "beskrivelse": "Kildeliste nederst på siden med klikkbare lenker til alle referanser.",
+        "funksjonalitet": [
+          "Nummerert liste med kilder",
+          "Klikkbare lenker til eksterne kilder",
+          "Hover-effekt på lenker",
+          "Markdown-basert innhold"
+        ],
+        "kilder": [
+          "SSB - Statistisk sentralbyrå",
+          "Eiendom Norge",
+          "Eiendomsverdi",
+          "DNB Markets",
+          "Norges Bank",
+          "Nordea",
+          "TV2 / E24",
+          "Hjemla.no"
+        ]
+      }
+    ]
+  },
+
+  "styling_struktur": {
+    "hovedfiler": [
+      "src/styles/index.css - Globale stiler og CSS-variabler",
+      "src/styles/sections.css - Seksjonsspesifikke stiler"
+    ],
+    "css_variabler": {
+      "bg-color": "#f5f5f5",
+      "text-primary": "#1a1a1a",
+      "text-secondary": "#666",
+      "accent-color": "#2563eb",
+      "accent-secondary": "#10b981",
+      "spacing-xs": "0.5rem",
+      "spacing-sm": "1rem",
+      "spacing-md": "2rem",
+      "spacing-lg": "4rem",
+      "spacing-xl": "6rem"
+    },
+    "design_prinsipper": [
+      "Mobil først (mobile-first)",
+      "Responsivt design med media queries",
+      "Clamp() for responsive typografi",
+      "Konsistent spacing-system med CSS-variabler",
+      "Smooth animasjoner og transitions"
+    ]
+  },
+
+  "data_struktur": {
+    "datafiler": [
+      {
+        "fil": "src/data/priceData.json",
+        "beskrivelse": "Historiske boligpriser med år og indeks"
+      },
+      {
+        "fil": "src/data/ageGroups.json",
+        "beskrivelse": "Aldersgrupper med andel som sliter med boligmarkedet"
+      },
+      {
+        "fil": "src/data/pressAreas.json",
+        "beskrivelse": "Byer med gjennomsnittspris, endring og prognose"
+      },
+      {
+        "fil": "src/data/interestRates.json",
+        "beskrivelse": "Renteutvikling over tid"
+      },
+      {
+        "fil": "src/data/cityCoordinates.ts",
+        "beskrivelse": "Koordinater for byer på kartet (TypeScript)"
+      }
+    ],
+    "tekstfiler": [
+      {
+        "fil": "src/shortread/bolig_shortread.md",
+        "beskrivelse": "Hovedartikkel med markdown-formatert tekst og fotnoter"
+      }
+    ]
+  },
+
+  "komponent_struktur": {
+    "hjelpekomponenter": [
+      {
+        "navn": "NorwayMap",
+        "komponent": "NorwayMap.tsx",
+        "beskrivelse": "Render SVG-kartet av Norge",
+        "brukt_i": "SectionMap"
+      }
+    ],
+    "hovedkomponenter": "Alle seksjonene listet over",
+    "styling_tilnærming": "CSS-moduler og global CSS med BEM-lignende navngiving"
+  },
+
+  "animasjoner": {
+    "framer_motion": {
+      "brukt_i": [
+        "Alle seksjoner - fade-in ved scroll",
+        "SectionMap - hotspot-animasjoner",
+        "SectionSummary - stagger på bullets",
+        "HookIntro - parallax-effekter"
+      ],
+      "typer": [
+        "opacity transitions",
+        "scale animations",
+        "stagger animations",
+        "scroll-triggered animations"
+      ]
+    },
+    "gsap": {
+      "brukt_i": ["SectionRates - timeline med ScrollTrigger"],
+      "funksjonalitet": "Scroll-basert timeline-animasjon"
+    }
+  },
+
+  "fotnoter_system": {
+    "implementasjon": "Markdown-basert med [^1], [^2] osv.",
+    "visning": "Fotnoter vises som superscript i teksten",
+    "kilder": "Listet i SectionSources nederst på siden",
+    "styling": "Superscript med hover-effekt"
+  },
+
+  "responsive_design": {
+    "breakpoints": {
+      "mobile": "max-width: 767px",
+      "tablet": "min-width: 768px",
+      "desktop": "min-width: 1024px"
+    },
+    "tilpasninger": [
+      "Flexible typography med clamp()",
+      "Grid-layout som endrer seg ved breakpoints",
+      "Kart med aspect-ratio 1:1 for konsistens",
+      "Responsive charts fra Recharts"
+    ]
+  },
+
+  "utviklingsmiljø": {
+    "dev_server": "Vite dev server på http://localhost:5173/",
+    "docker": "Kjører i Docker container",
+    "build": "npm run build",
+    "hot_reload": "Støttet via Vite"
+  },
+
+  "merknader": [
+    "Alle seksjoner har min-height: 100vh for mobil",
+    "Kartet har debug-modus for koordinatjustering (deaktivert i produksjon)",
+    "Fotnoter brukes i stedet for inline kilder",
+    "Kildelisten har klikkbare lenker til eksterne kilder",
+    "Koordinater for kart-byer er manuelt kalibrert for å matche SVG-prikkene"
+  ]
+}
+
