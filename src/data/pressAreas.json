@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Oslo",
+    "avg_price": 7000000,
+    "change_percent": 0.10,
+    "forecast_2025": 0.10,
+    "description": "Episenter for knapphet. Spådd vekst: +10% i 2025"
+  },
+  {
+    "city": "Stavanger",
+    "avg_price": 5500000,
+    "change_percent": 0.14,
+    "forecast_2025": 0.14,
+    "description": "Mot-syklisk boom. Spådd vekst: +14% i 2025"
+  },
+  {
+    "city": "Bergen",
+    "avg_price": 5500000,
+    "change_percent": 0.12,
+    "forecast_2025": 0.12,
+    "description": "Stabil vekst. Spådd vekst: +12% i 2025"
+  },
+  {
+    "city": "Trondheim",
+    "avg_price": 4800000,
+    "change_percent": 0.05,
+    "forecast_2025": 0.05,
+    "description": "Sakte oppgang. Spådd vekst: +5% i 2025"
+  },
+  {
+    "city": "Tromsø",
+    "avg_price": 4500000,
+    "change_percent": 0.10,
+    "forecast_2025": 0.10,
+    "description": "Nordlig bastion. Spådd vekst: +10% i 2025"
+  }
+]

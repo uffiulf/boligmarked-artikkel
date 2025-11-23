@@ -1,0 +1,22 @@
+[
+  {
+    "group": "18-29",
+    "share_struggling": 0.65,
+    "description": "Størst utfordringer. Mange førstegangskjøpere som sliter med å komme inn på markedet, spesielt i byer som Oslo."
+  },
+  {
+    "group": "30-39",
+    "share_struggling": 0.45,
+    "description": "Mange førstegangskjøpere i denne gruppen. Økende press på markedet gjør det vanskeligere å etablere seg."
+  },
+  {
+    "group": "40-59",
+    "share_struggling": 0.25,
+    "description": "Ofte allerede etablert på markedet. Lavere andel som sliter, men noen oppgraderer eller kjøper for første gang."
+  },
+  {
+    "group": "60+",
+    "share_struggling": 0.15,
+    "description": "Lavest andel som sliter. De fleste er allerede huseiere eller har nedbetalt lån."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "year": 2020, "rate": 0.0, "description": "Pandemistimulans - nullrente" },
+  { "year": 2021, "rate": 0.25, "description": "Lav rente fortsetter" },
+  { "year": 2022, "rate": 2.5, "description": "Inflasjonssjokk - kraftig renteøkning" },
+  { "year": 2023, "rate": 4.25, "description": "Høy rente for å dempe inflasjon" },
+  { "year": 2024, "rate": 4.5, "description": "Styringsrente på 4,5%" }
+]
