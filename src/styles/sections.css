@@ -107,6 +107,14 @@
 .section-prices__text h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+}
+
+.section-prices__text p {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-sm);
 }
 
 .key-stat {
@@ -145,6 +153,14 @@
 
 .section-groups__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.section-groups__header p {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
   margin-bottom: var(--spacing-sm);
 }
 
@@ -205,6 +221,14 @@
 
 .section-map__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.section-map__header p {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
   margin-bottom: var(--spacing-sm);
 }
 
@@ -301,6 +325,14 @@
 .section-rates__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.section-rates__header p {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-sm);
 }
 
 .timeline {
@@ -350,11 +382,11 @@
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-md);
   text-align: center;
+  color: var(--text-primary);
 }
 
-.summary-list {
-  list-style: none;
-  padding: 0;
+.section-summary__content p {
+  color: var(--text-primary);
 }
 
 .summary-item {
@@ -364,7 +396,14 @@
   padding: var(--spacing-sm);
   font-size: 1.125rem;
   line-height: 1.6;
+  color: var(--text-primary);
 }
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+}
+
 
 .checkmark {
   color: var(--accent-secondary);
