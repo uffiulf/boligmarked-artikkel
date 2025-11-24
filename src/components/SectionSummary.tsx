@@ -44,6 +44,16 @@ const SectionSummary = () => {
         >
           <ReactMarkdown
             components={{
+              h2: ({ children }) => (
+                <h2 style={{ 
+                  fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', 
+                  marginBottom: 'var(--spacing-md)', 
+                  textAlign: 'center',
+                  color: 'var(--text-primary)'
+                }}>
+                  {children}
+                </h2>
+              ),
               ul: ({ children }) => (
                 <motion.ul variants={listVariants} className="summary-list">
                   {children}
