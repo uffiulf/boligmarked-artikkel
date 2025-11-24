@@ -48,3 +48,15 @@ Når renten stiger, blir boliglån dyrere. Dette reduserer hvor mye penger husho
 - Renteøkninger reduserer kjøpekraft, men markedet har vist motstandskraft takket være sterk arbeidsmarked
 - Tilbudskrisen i nybygg (ned 50% siden 2022) skaper et "tilbudstidsbombe" som vil påvirke 2025-2026
 
+## Kilder
+
+- SSB - Statistisk sentralbyrå: Prisindeks for brukte boliger (historisk data og kvartalsrapporter)
+- Eiendom Norge - Månedlige boligprisstatistikker (2024/2025)
+- DNB Markets - Økonomisk utsikt og boligprognoser 2025
+- Norges Bank - Styringsrenteutvikling og pengepolitikk
+- Nordea - Boligmarkedsutsikt
+- SSB - Langsiktig prisutvikling artikler
+- TV2 / E24 - Rapportering om "First Price Market" og regionale data
+- SSB - Nylige kvartalsprisindekser (2024)
+- Eiendom Norge - Oktober 2025 markedsrapport
+- Hjemla.no - Tilgjengelighet i spesifikke kommuner (Gamvik/Berlevåg)
