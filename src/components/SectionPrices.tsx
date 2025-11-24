@@ -36,7 +36,7 @@ const SectionPrices = () => {
 
   const markdownContent = `## Hvor mye har prisene steget?
 
-Boligprisene i Norge har vist bemerkelsesverdig motstandskraft. Til tross for at Norges Bank har hevet styringsrenten til 4,5%, har prisene ikke krasjet. I stedet har markedet opplevd en "kjøleplateau" – nominale priser har holdt seg stabile, mens realpriser (justert for inflasjon) har falt noe.
+Boligprisene i Norge har vist bemerkelsesverdig motstandskraft. Til tross for at Norges Bank har hevet styringsrenten til 4,5%, har prisene ikke krasjet. I stedet har markedet flatet ut, nominale priser har holdt seg stabile, mens realpriser (justert for inflasjon) har falt noe.
 
 Pandemien (2020-2022) utløste en "romkappløp" som drev prisene kraftig opp. Fra 2019 til 2022 steg prisindeksen for eneboliger med 19,4%. Dette la grunnlaget for den tilgjengelighetskrisen vi ser i dag.`
 
