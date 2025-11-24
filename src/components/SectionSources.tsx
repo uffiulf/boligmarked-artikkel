@@ -10,23 +10,15 @@ const SectionSources = () => {
 
 1. [SSB – Prisindeks for brukte boliger](https://www.ssb.no/statbank/table/07241/)
 
-2. [SSB – Befolkning](https://www.ssb.no/befolkning)
+2. [SSB – Nylige kvartalsprisindekser](https://www.ssb.no/statbank/table/07230/)
 
-3. [SSB – Langsiktig prisutvikling](https://www.ssb.no/priser-og-prisindekser/boligpriser)
+3. [Eiendom Norge – Boligprisstatistikk](https://www.eiendomnorge.no/boligprisstatistikk/)
 
-4. [SSB – Nylige kvartalsprisindekser](https://www.ssb.no/statbank/table/07230/)
+4. [Norges Bank – Styringsrenten](https://www.norges-bank.no/tema/pengepolitikk/styringsrenten/)
 
-5. [Eiendom Norge – Boligprisstatistikk](https://www.eiendomnorge.no/boligprisstatistikk/)
+5. [Nordea – Nordeas prognose boligpriser 2025](https://www.nordea.com/no/nyheter/mot-lysere-tider-dette-venter-norsk-okonomi-i-2025)
 
-6. [Eiendom Norge – Markedskommentarer](https://www.eiendomnorge.no/nyheter/)
-
-7. [Eiendom Norge – Markedsrapporter](https://www.eiendomnorge.no/rapporter/)
-
-8. [Norges Bank – Styringsrenten](https://www.norges-bank.no/tema/pengepolitikk/styringsrenten/)
-
-9. [Nordea – Nordeas prognose boligpriser 2025](https://www.nordea.com/no/nyheter/mot-lysere-tider-dette-venter-norsk-okonomi-i-2025)
-
-10. [Krogsveen – Prisstatistikk](https://www.krogsveen.no/boligprisstatistikk)
+6. [Krogsveen – Prisstatistikk](https://www.krogsveen.no/boligprisstatistikk)
 
 **Merk:** Alle kilder er åpne og verifiserbare. Data er hentet fra offentlige rapporter og institusjonelle analyser.
 
