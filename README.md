@@ -2,6 +2,8 @@
 
 En interaktiv scrollytelling-nettside om det norske boligmarkedet.
 
+🌐 **Live demo:** [GitHub Pages](https://uffiulf.github.io/boligmarked-artikkel/)
+
 ## Teknologi
 
 - React + Vite
@@ -28,6 +30,13 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Deployment
+
+Prosjektet er satt opp for automatisk deployment til GitHub Pages via GitHub Actions. Hver push til `main`-branchen vil automatisk bygge og deploye nettsiden.
+
+- **Live URL:** https://uffiulf.github.io/boligmarked-artikkel/
+- **Workflow:** `.github/workflows/deploy.yml`
 
 ## Struktur
 
