@@ -102,16 +102,17 @@
 
 .section-prices__text {
   flex: 1;
+  color: #000000;
 }
 
 .section-prices__text h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-md);
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .section-prices__text p {
-  color: var(--text-primary);
+  color: #000000 !important;
   font-size: 1.125rem;
   line-height: 1.8;
   margin-bottom: var(--spacing-sm);
@@ -151,14 +152,18 @@
   margin-bottom: var(--spacing-lg);
 }
 
+.section-groups__header {
+  color: #000000;
+}
+
 .section-groups__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-sm);
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .section-groups__header p {
-  color: var(--text-primary);
+  color: #000000 !important;
   font-size: 1.125rem;
   line-height: 1.8;
   margin-bottom: var(--spacing-sm);
@@ -219,14 +224,18 @@
   margin-bottom: var(--spacing-lg);
 }
 
+.section-map__header {
+  color: #000000;
+}
+
 .section-map__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-sm);
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .section-map__header p {
-  color: var(--text-primary);
+  color: #000000 !important;
   font-size: 1.125rem;
   line-height: 1.8;
   margin-bottom: var(--spacing-sm);
@@ -322,14 +331,18 @@
   margin-bottom: var(--spacing-lg);
 }
 
+.section-rates__header {
+  color: #000000;
+}
+
 .section-rates__header h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-sm);
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .section-rates__header p {
-  color: var(--text-primary);
+  color: #000000 !important;
   font-size: 1.125rem;
   line-height: 1.8;
   margin-bottom: var(--spacing-sm);
@@ -378,15 +391,19 @@
   width: 100%;
 }
 
+.section-summary__content {
+  color: #000000;
+}
+
 .section-summary__content h2 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: var(--spacing-md);
   text-align: center;
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .section-summary__content p {
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .summary-item {
@@ -396,7 +413,7 @@
   padding: var(--spacing-sm);
   font-size: 1.125rem;
   line-height: 1.6;
-  color: var(--text-primary);
+  color: #000000 !important;
 }
 
 .summary-list {
