@@ -1,8 +1,8 @@
 /* HookIntro Styles */
 .hook-intro {
   position: relative;
-  background: linear-gradient(135deg, #e0e7ff 0%, #ddd6fe 100%);
-  color: #000000;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
   bottom: 0;
   width: 100%;
   height: 40%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.3) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
   clip-path: polygon(
     0% 100%,
     5% 80%,
@@ -59,13 +59,11 @@
   font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 700;
   margin-bottom: var(--spacing-sm);
-  color: #000000;
 }
 
 .hook-intro__subtitle {
   font-size: clamp(1rem, 2vw, 1.5rem);
   opacity: 0.9;
-  color: #000000;
 }
 
 .scroll-indicator {
@@ -80,7 +78,6 @@
   font-size: 0.875rem;
   opacity: 0.8;
   z-index: 1;
-  color: #000000;
 }
 
 /* SectionPrices Styles */
@@ -146,7 +143,7 @@
 
 /* SectionGroups Styles */
 .section-groups {
-  background: var(--bg-color);
+  background: #F4F4ED;
 }
 
 .section-groups__header {
@@ -325,7 +322,7 @@
 
 /* SectionRates Styles */
 .section-rates {
-  background: var(--bg-color);
+  background: #F4F4ED;
 }
 
 .section-rates__header {
@@ -472,7 +469,7 @@
 
 /* SectionSources Styles */
 .section-sources {
-  background: var(--bg-color);
+  background: #F4F4ED;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
