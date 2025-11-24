@@ -12,8 +12,6 @@ Boligprisene i Norge har vist bemerkelsesverdig motstandskraft. Til tross for at
 
 Pandemien (2020-2022) utløste en "romkappløp" som drev prisene kraftig opp. Fra 2019 til 2022 steg prisindeksen for eneboliger med 19,4%. Dette la grunnlaget for den tilgjengelighetskrisen vi ser i dag.
 
-**Kilde: SSB - Prisindeks for brukte boliger**
-
 ## Section Groups
 
 ### Hvem sliter mest?
@@ -21,8 +19,6 @@ Pandemien (2020-2022) utløste en "romkappløp" som drev prisene kraftig opp. Fr
 Ungdom og førstegangskjøpere har størst utfordringer med å komme inn på boligmarkedet. Sykepleierindeksen viser at i Oslo kan en sykepleier i dag bare kjøpe 2,3% av boligene som selges, ned fra 13% for ti år siden.
 
 Aldersgruppen 18-29 år har størst utfordringer, mens eldre grupper (60+) ofte allerede er etablert på markedet. Dette skaper en "geografisk loddtrekning" – hvor du bor avgjør i stor grad hvor tilgjengelig boligmarkedet er.
-
-**Kilde: Eiendom Norge / Eiendomsverdi - Sykepleierindeksen 2024**
 
 ## Section Map
 
@@ -34,8 +30,6 @@ Oslo er "episenteret for knapphet" – byen er omgitt av Marka og fjorden, og ha
 
 Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet, med spådd vekst på 14% i 2025. Bergen og Trondheim ligger i mellom, med henholdsvis 12% og 5% spådd vekst.
 
-**Kilde: DNB Markets - Økonomisk utsikt og boligprognoser 2025**
-
 ## Section Rates
 
 ### Renter, lån og kjøpekraft
@@ -43,8 +37,6 @@ Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet,
 Norges Bank hevet styringsrenten fra 0% i 2020 til 4,5% i 2024 for å dempe inflasjonen. Dette påvirker direkte lånekostnader og kjøpekraft.
 
 Når renten stiger, blir boliglån dyrere. Dette reduserer hvor mye penger husholdninger har tilgjengelig til andre ting, og svekker kjøpekraften. Til tross for dette har boligprisene vist motstandskraft, delvis takket være sterk arbeidsmarked og lønnsvekst.
-
-**Kilde: Norges Bank - Styringsrenteutvikling**
 
 ## Section Summary
 

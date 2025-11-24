@@ -14,9 +14,7 @@ Det norske boligmarkedet er ikke ett marked, men flere. Store byer som Oslo, Ber
 
 Oslo er "episenteret for knapphet" – byen er omgitt av Marka og fjorden, og har streng regulering som begrenser nybygg. DNB Markets spår 10% prisvekst i Oslo for 2025.
 
-Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet, med spådd vekst på 14% i 2025. Bergen og Trondheim ligger i mellom, med henholdsvis 12% og 5% spådd vekst.
-
-**Kilde: DNB Markets - Økonomisk utsikt og boligprognoser 2025**`
+Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet, med spådd vekst på 14% i 2025. Bergen og Trondheim ligger i mellom, med henholdsvis 12% og 5% spådd vekst.`
 
   return (
     <section className="section-map section" ref={ref}>
