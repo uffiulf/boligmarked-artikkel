@@ -10,9 +10,9 @@ const SectionGroups = () => {
 
   const markdownContent = `## Hvem sliter mest?
 
-Ungdom og førstegangskjøpere har størst utfordringer med å komme inn på boligmarkedet. Sykepleierindeksen viser at i Oslo kan en sykepleier i dag bare kjøpe 2,3% av boligene som selges, ned fra 13% for ti år siden.[^1]
+Ungdom og førstegangskjøpere har størst utfordringer med å komme inn på boligmarkedet. Sykepleierindeksen viser at i Oslo kan en sykepleier i dag bare kjøpe 2,3% av boligene som selges, ned fra 13% for ti år siden.
 
-Aldersgruppen 18-29 år har størst utfordringer, mens eldre grupper (60+) ofte allerede er etablert på markedet. Dette skaper en "geografisk loddtrekning" – hvor du bor avgjør i stor grad hvor tilgjengelig boligmarkedet er.[^1]`
+Aldersgruppen 18-29 år har størst utfordringer, mens eldre grupper (60+) ofte allerede er etablert på markedet. Dette skaper en "geografisk loddtrekning" – hvor du bor avgjør i stor grad hvor tilgjengelig boligmarkedet er.`
 
   const cardVariants = {
     hidden: { opacity: 0, x: -50 },

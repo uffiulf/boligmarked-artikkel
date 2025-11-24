@@ -15,11 +15,11 @@ const SectionMap = () => {
 
 Det norske boligmarkedet er ikke ett marked, men flere. Store byer som Oslo, Bergen og Stavanger opplever sterk prisvekst, mens mindre steder har lavere press.
 
-Oslo er "episenteret for knapphet" – byen er omgitt av Marka og fjorden, og har streng regulering som begrenser nybygg. DNB Markets spår 10% prisvekst i Oslo for 2025.[^1]
+Oslo er "episenteret for knapphet" – byen er omgitt av Marka og fjorden, og har streng regulering som begrenser nybygg. DNB Markets spår 10% prisvekst i Oslo for 2025.
 
-Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet, med spådd vekst på 14% i 2025. Bergen og Trondheim ligger i mellom, med henholdsvis 12% og 5% spådd vekst.[^1]
+Stavanger opplever en mot-syklisk boom takket være høy olje- og gassaktivitet, med spådd vekst på 14% i 2025. Bergen og Trondheim ligger i mellom, med henholdsvis 12% og 5% spådd vekst.
 
-Nyboligmarkedet har kollapset – salg av nye boliger har falt med over 50% siden 2022.[^2]`
+Nyboligmarkedet har kollapset – salg av nye boliger har falt med over 50% siden 2022.`
 
   return (
     <section className="section-map section" ref={ref}>
